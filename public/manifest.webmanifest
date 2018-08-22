@@ -1,0 +1,14 @@
+{
+  "name": "Animal",
+  "short_name": "Purr",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Purr Purr ",
+  "icons": [{
+    "src": "icon/mountain512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "theme_color": "#FF9800",
+  "start_url": "/index.html"
+}

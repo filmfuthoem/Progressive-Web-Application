@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  background-color: green;
+}
+
+body{
+  height: inherit;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+@@media (orientation: landscape) {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Progressive Web Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <script src="index.js" charset="utf-8" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, init ial-scale=1">
+    <meta name="theme-color" content="#FF9800" />
+    <meta name="Description" content="Progressive Web Application">
+  </head>
+  <body>
+    <noscript>
+      Your browser is not support javascript.
+    </noscript>
+    <img src="images/p1.jpg" alt=""/>
+  </body>
+  <script type="text/javascript">
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  };
+  </script>
+</html>
